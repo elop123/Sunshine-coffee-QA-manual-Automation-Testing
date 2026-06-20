@@ -1,40 +1,37 @@
-1. Product Browsing
-User Story: > As a coffee shopper,I want to view a clean list of all available coffee products,So that I can easily explore all the coffee types.
+1. **Product Browsing**
+User Story: As a coffee shopper,I want to view a clean list of all available coffee products,So that I can easily explore all the coffee types.
 
-Acceptance Criteria / Scenarios:
+*Acceptance Criteria / Scenarios:*
 
 Scenario 1 (Happy Path): When navigating to the home/menu page, all active coffee products must load dynamically with their respective titles, prices, and high-quality images.
 
 Scenario 2 (Responsiveness): On mobile viewports, the product must sbe without text overlaps or broken image layouts.
 
-2. Product Detail
-User Story:As a coffee buyer,
-I want to click on a product to read its detailed description, ingredients, and notes,So that I can make an informed purchase before committing it to my cart.
+2. **Product Detail**
+User Story:As a coffee buyer,I want to click on a product to read its detailed description, ingredients, and notes,So that I can make an informed purchase before committing it to my cart.
 
-Acceptance Criteria / Scenarios:
+*Acceptance Criteria / Scenarios:*
 
 Scenario 1 (Content Display): Clicking a product card must successfully open the product details view (showing image, description, roast level and price)
 
 Scenario 2 (Interactive Quantity): The detail page must have  "Add to Cart" button that adds the item to the cart.
 
-3. Shopping Cart (Side-drawer / Page)
+3. **Shopping Cart**
 User Story:
-
 As a regular buyer,I want to review the items I have chosen, adjust their quantities, or remove them entirely within the cart interface,So that I have complete control over my order details before proceeding to pay.
 
-Acceptance Criteria / Scenarios:
+*Acceptance Criteria / Scenarios:*
 
 Scenario 1 (Dynamic Totals): Adding multiple items or increasing quantities must instantly update the line-item subtotals and global order total.
 
 Scenario 2 (Input Validation Error): The quantity text input field must reject negative inputs.
 
-4. Checkout Flow
+4. **Checkout Flow**
 User Story:
-
 As a customer ready to complete my purchase,I want to fill out my delivery information and submit a payment profile,
 So that my transaction completes securely and registers an order confirmation.
 
-Acceptance Criteria / Scenarios:
+*Acceptance Criteria / Scenarios:*
 
 Scenario 1 (Form Field Validation): Standard checkout form input boxes (Email, Name, Shipping Address) must throw targeted error warnings if submitted empty or containing structurally invalid formats.
 
